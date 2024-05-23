@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    background: #333333;
+    }
+    
+    
+    nav a{
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    display: inline-block;
+    }
+    
+    nav a:hover,
+    section#n1:hover~nav a[href="#n1"],
+    section#n2:hover~nav a[href="#n2"],
+    section#n3:hover~nav a[href="#n3"],
+    section#n4:hover~nav a[href="#n4"],
+    section#n5:hover~nav a[href="#n5"],
+    section#n5:hover~nav a[href="#n6"],
+    section#n5:hover~nav a[href="#n7"],
+    section#n5:hover~nav a[href="#n8"],
+    section#n5:hover~nav a[href="#n9"]
+    {
+    background: #159031;
+    color: aliceblue;
+    }
+    nav a:active{
+    background: #041d81;
+    }
+    
+   
+    .container{
+        margin:20px auto;
+        background:rgb(189, 186, 186);
+        width:100%;
+        overflow:hidden;
+        padding:220px 0px;
+    }
+    
+    .product { 
+        width: 300px; 
+        margin: 20px; 
+        padding: 20px; 
+        background: #159031;
+        border: 1px solid #814949; 
+        text-align: center;
+        margin-left: auto;
+        margin-right: 1400px;
+        margin-top: 100px;
+        width: 20em 
+        } 
+        
+       
+        
+        .product button { 
+        display: block; 
+        margin: 10px auto; 
+        background: #d377df;
+        padding: 10px 20px; 
+        color: #e68e8e; 
+        border: none; 
+        border-radius: 5px; 
+        font-size: 16px; 
+        cursor: pointer; 
+        } 
+
+
+       
+
+
+          
